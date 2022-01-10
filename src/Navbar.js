@@ -5,7 +5,7 @@ export default function Navbar(props) {
   return (
     <div>
       <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
-
+//add new code here
         <div className="container-fluid">
           {/* <Router> */}
             <a className="navbar-brand" href="/">{props.title}</a>
